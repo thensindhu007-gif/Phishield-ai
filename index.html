@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhishShield AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🛡 PhishShield AI</h1>
+    <p>Intelligent Phishing Email Detection System</p>
+
+    <textarea id="emailInput" placeholder="Paste suspicious email here..."></textarea>
+    <br>
+    <button onclick="analyzeEmail()">Analyze Email</button>
+
+    <div class="result-box">
+        <h3>Analysis Result</h3>
+        <p><strong>Risk Score:</strong> <span id="score">-</span>%</p>
+        <div id="badge" class="risk-badge"></div>
+        <p><strong>Suspicious Keywords:</strong></p>
+        <p id="keywords">-</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
