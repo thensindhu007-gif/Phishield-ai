@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+textarea {
+    width: 60%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #00c6ff;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0072ff;
+    color: white;
+}
+
+.result-box {
+    margin: 30px auto;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.risk-badge {
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.low {
+    background: #4CAF50;
+}
+
+.medium {
+    background: #FFC107;
+    color: black;
+}
+
+.high {
+    background: #F44336;
+}
